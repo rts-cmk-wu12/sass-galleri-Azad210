@@ -6,19 +6,20 @@
     <title>Sass galleri</title>
     <link rel="stylesheet" href="css/main.css">
     <script src="https://kit.fontawesome.com/3b9b75cb66.js" crossorigin="anonymous"></script>
+    <script type="module" src="galleri.js"></script>
 </head>
 <body>
 <header>
 <input type="text" placeholder="Search..">  
 <nav>
     <h1>Explore</h1>
-<ul>
-   <li> <a href="">Lifestyle</a></li>
-   <li> <a href="">Food</a></li>
-   <li> <a href="">Home</a></li>
-   <li> <a href="">Travel</a></li>
-   <li> <a href="">More</a></li> 
-</ul>  
+    <ul>
+        <li><a href="#" class="filter" billede-category="lifestyle">Lifestyle</a></li>
+        <li><a href="#" class="filter" billede-category="food">Food</a></li>
+        <li><a href="#" class="filter" billede-category="home">Home</a></li>
+        <li><a href="#" class="filter" billede-category="travel">Travel</a></li>
+        <li><a href="#" class="filter" billede-category="more">More</a></li> 
+     </ul>  
 </nav>
 </header>
 
@@ -26,28 +27,28 @@
 
 
 <div class="wrapper">
-<img src="img/COLOURBOX58671735.jpg" alt="billede 1">
-<img src="img/COLOURBOX58199045.jpg" alt="billede 2">
-<img src="img/COLOURBOX58522289.jpg" alt="billede 3">
-<img src="img/COLOURBOX58533739.jpg" alt="billede 4">
-<img src="img/5.jpg" alt="billede 5">
-<img src="img/6.jpg" alt="billede 6">
-<img src="img/7.jpg" alt="billede 7">
-<img src="img/COLOURBOX58640919.jpg" alt="billede 8">
-<img src="img/COLOURBOX58544691.jpg" alt="billede 9">
-<img src="img/10.jpg" alt="billede 10">
-<img src="img/COLOURBOX58529877.jpg" alt="billede 11">
-<img src="img/12.jpg" alt="billede 12">
-<img src="img/13.jpg" alt="billede 13">
-<img src="img/COLOURBOX57320619.jpg" alt="billede 14">
-<img src="img/15.jpg" alt="billede 15">
-<img src="img/COLOURBOX58782672.jpg" alt="billede 16">
-<img src="img/COLOURBOX58673185.jpg" alt="billede 17">
-<img src="img/COLOURBOX58557178.jpg" alt="billede 18">
-<img src="img/COLOURBOX58645539.jpg" alt="billede 19">
-<img src="img/COLOURBOX58557178.jpg" alt="billede 20">
-
+    <img src="img/COLOURBOX58671735.jpg" alt="billede 1" class="billeder" data-category="food">
+    <img src="img/COLOURBOX58199045.jpg" alt="billede 2" class="billeder" data-category="food">
+    <img src="img/COLOURBOX58522289.jpg" alt="billede 3" class="billeder" data-category="travel">
+    <img src="img/COLOURBOX58533739.jpg" alt="billede 4" class="billeder" data-category="lifestyle">
+    <img src="img/5.jpg" alt="billede 5" class="billeder" data-category="food">
+    <img src="img/6.jpg" alt="billede 6" class="billeder" data-category="food">
+    <img src="img/7.jpg" alt="billede 7" class="billeder" data-category="lifestyle">
+    <img src="img/COLOURBOX58640919.jpg" alt="billede 8" class="billeder" data-category="food">
+    <img src="img/COLOURBOX58544691.jpg" alt="billede 9" class="billeder" data-category="travel">
+    <img src="img/10.jpg" alt="billede 10" class="billeder" data-category="more">
+    <img src="img/COLOURBOX58529877.jpg" alt="billede 11" class="billeder" data-category="travel">
+    <img src="img/12.jpg" alt="billede 12" class="billeder" data-category="travel">
+    <img src="img/13.jpg" alt="billede 13" class="billeder" data-category="home">
+    <img src="img/COLOURBOX57320619.jpg" alt="billede 14" class="billeder" data-category="food">
+    <img src="img/15.jpg" alt="billede 15" class="billeder" data-category="food">
+    <img src="img/COLOURBOX58782672.jpg" alt="billede 16" class="billeder" data-category="more">
+    <img src="img/COLOURBOX58673185.jpg" alt="billede 17" class="billeder" data-category="lifestyle">
+    <img src="img/COLOURBOX58557178.jpg" alt="billede 18" class="billeder" data-category="home">
+    <img src="img/COLOURBOX58645539.jpg" alt="billede 19" class="billeder" data-category="lifestyle">
+    <img src="img/COLOURBOX58557178.jpg" alt="billede 20" class="billeder" data-category="home">
 </div>
+
 
 
 <footer>
